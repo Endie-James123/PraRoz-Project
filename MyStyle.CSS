@@ -1,0 +1,189 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff8c00;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+h2{
+    color: #ff8c00;
+}
+.search-box input {
+    padding: 10px;
+    border: 2px solid #ff8c00;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    background-color: #ff8c00;
+    color: white;
+    border: 2px solid #ff8c00;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: left;
+    margin: 50px 80px;
+    width: 60%;
+}
+
+.main-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 350px;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: #ff8c00;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8c00;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content p {
+    font-size: 18px;
+    width: 500px;
+    line-height: 1.5;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff8c00;
+    color: white;
+    text-decoration: none;
+    margin-top: 1px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.login-section {
+    width: 23%;
+    position: absolute;
+    right: 40px;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0.5px 1px 7px  rgb(86, 84, 84);
+}
+
+ h3 {
+    text-align: center;
+    color: #ff8c00;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin:  8px 0;
+}
+
+.signupInputs {
+    width: 91%;
+    padding: 10px;
+    color: white;
+    border-bottom: 2px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.loginInputs {
+    width: 91%;
+    padding: 10px;
+    margin: 5px auto;
+    border-bottom: 2px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+#signUpShowPassword, #loginShowPassword{
+    margin: 13px 0;
+}
+
+button:hover{
+    border: 2px solid white;
+}
+.form-text{
+    text-align: center;
+}
+
+.login-section a {
+    color: #ff8c00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: white ;
+    font-size: 20px;
+}
+
+
+/* Stylings for Modal starts here*/
+
+/* Modal styling */
+.modal {
+  display: none;  /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Background color with opacity */
+}
+
+/* modal content stylings */
+.modal-content {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 6% auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 6px;
+    box-shadow: 0.5px 1px 7px  rgb(86, 84, 84);
+}
+
+

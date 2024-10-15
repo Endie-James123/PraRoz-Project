@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PraRoz Web Design & Development Course</title>
+    <link rel="stylesheet" href="MyStyle.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h2>PraRoz</h2>
+        </div>
+        <div class="menu">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICE</a>
+            <a href="#">DESIGN</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Type To Text">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>Web design & <span>Development</span> Course</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing quam exercitationem mollitia sequi vel fugiat fugit nulla possimus. sit amet consectetur adipiscing elit. Pariatur consectetur quam exercitationem mollitia sequi</p>
+        <a href="#" id="joinUsBtn" class="cta-button">Join Us</a>
+    </div>
+
+    <div class="login-section">
+        <h3>Login Here</h3>
+        <form id="loginForm">
+            <input type="email" placeholder="Enter Email here" id="loginEmail" class="loginInputs" required>
+            <input type="password" placeholder="Enter Your password" id="loginPassword" class="loginInputs" required><br>
+            <input type="checkbox" name="" id="loginShowPassword">
+            <label for="showPassword">Show Password</label> 
+            <button type="submit">Login</button>
+        </form>
+       <div class="form-text">
+        <p>Don't Have Account? <a id="SignupAnchor">Sign Up Here</a></p>
+        <p>Log In With:</p>
+       </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-skype"></i></a>
+        </div>
+    </div>
+    <!-- Join Us Button -->
+<!-- <button id="joinUsBtn" class="join-us-btn">Join Us</button> -->
+
+<!-- Modal -->
+<div id="signupModal" class="modal">
+  <div class="modal-content">
+    <h3>SignUp Here</h3>
+    <form id="signupForm">
+      <input type="text" class="signupInputs" id="signupUsername" name="username" placeholder="Enter Username...." required>
+      <input type="email" class="signupInputs" id="signupEmail" name="email" placeholder="Enter Email...." required>
+      <input type="password" class="signupInputs" id="signupPassword" name="password" placeholder="Enter password...." required>
+      <input type="checkbox" name="" id="signUpShowPassword">
+      <label for="showPassword">Show Password</label> 
+      <button type="submit">Sign Up</button>
+      <div class="form-text">
+        <p>Log In With:</p>
+       </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-skype"></i></a>
+        </div>
+    </form>
+  </div>
+</div>
+
+
+
+    <script src="Script.Js"></script>
+</body>
+</html>
