@@ -132,7 +132,7 @@ button {
     color: white;
 }
 
-#signUpShowPassword, #loginShowPassword{
+.showPassword{
     margin: 13px 0;
 }
 
